@@ -38,16 +38,16 @@ range_data = worksheet.get('A6:AG28', major_dimension='COLUMNS')
 row6 = worksheet.row_values(6)
 danhsachNgay = row6[2:]
 
-row10 = worksheet.row_values(10)
-danhsachGiaTri = row10[2:]
+row8 = worksheet.row_values(8)
+danhsachGiaTri = row8[2:]
 
 dulieu_theongay = {}
 
-for ngay in danhsachNgay:
-    for giatri in danhsachGiaTri:
-        dulieu_theongay[ngay] = checkNull(giatri)
 
-tentram = range_data[1][1]
+for ngay, giatri in zip(danhsachNgay, danhsachGiaTri):
+    dulieu_theongay[ngay] = checkNull(giatri)
+
+tentram = range_data[1][2]
 
 # get data
 data_tram = DataTram(tentram, namBaoCao, thangBaoCao, dulieu_theongay)
