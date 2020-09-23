@@ -1,7 +1,7 @@
 # PYTHON TOOL FOR GOOLGE SHEETS 
 This tool use to connect and read data from online spreadsheet of Google Sheets API.
 
-![](https://github.com/holamtruong/pdf2img_gui/blob/master/screen.png?raw=true)
+![](https://github.com/holamtruong/pyGSheets/blob/master/_draw/cs1.PNG?raw=true)
 
 ### Create virtual environment
     python -m venv venv
