@@ -1,5 +1,5 @@
 # PYTHON TOOL FOR GOOLGE SHEETS 
-This tool use to connect and read data from online spreadsheet of Google Sheets API.
+This tool is intended for connecting and reading data from the online spreadsheet of Google Sheets API.
 
 ![](https://github.com/holamtruong/pyGSheets/blob/master/_draw/cs2.PNG?raw=true)
 
